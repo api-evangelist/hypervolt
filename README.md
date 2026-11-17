@@ -64,22 +64,71 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Experience Hypervolt: The highest rated EV charger on TrustPilot. Elevate your electric journey with powerful charging, solar panel integration, real-time cost control, and tariff integration. Hypervolt offers home EV charging solutions designed for speed, safety, and smart energy management.
+Hypervolt designs and manufactures high‑performance electric vehicle (EV) chargers for home and commercial use in the United Kingdom. Their product range includes the Home 3 Pro and other smart charging solutions that integrate with popular energy tariffs and mobile apps, offering features such as scheduled charging, real‑time monitoring, and installer‑managed installations. The company emphasizes sustainability, rapid delivery, and customer support, boasting a 4.8‑star rating from thousands of reviews. Hypervolt also provides resources for installers, a knowledge base, and a dedicated support portal.
 
-**Areas:** EV · Charging · Home · SmartEnergy · Sustainability · Company
+**Areas:** Company · EV · Chargers · UK · Sustainability
 
 ## Hypervolt on APIs.io
 
 Everything profiled for Hypervolt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hypervolt/](https://apis.io/providers/hypervolt/)** — or go straight to one of the APIs or properties below.
 
+### APIs (16)
+
+- [Hypervolt Account API](https://apis.io/apis/hypervolt/hypervolt-account-api/) — The Account API from Hypervolt — 1 operation(s) for account.
+- [Hypervolt Address API](https://apis.io/apis/hypervolt/hypervolt-address-api/) — The address API from Hypervolt — 2 operation(s) for address.
+- [Hypervolt Adoption API](https://apis.io/apis/hypervolt/hypervolt-adoption-api/) — The adoption API from Hypervolt — 11 operation(s) for adoption.
+- [Hypervolt Adoption Codes API](https://apis.io/apis/hypervolt/hypervolt-adoption-codes-api/) — The adoption-codes API from Hypervolt — 3 operation(s) for adoption-codes.
+- [Hypervolt Analytics API](https://apis.io/apis/hypervolt/hypervolt-analytics-api/) — The analytics API from Hypervolt — 3 operation(s) for analytics.
+- [Hypervolt Charger API](https://apis.io/apis/hypervolt/hypervolt-charger-api/) — The charger API from Hypervolt — 16 operation(s) for charger.
+- [Hypervolt Flex Registration Activity Summary API](https://apis.io/apis/hypervolt/hypervolt-flex-registration-activity-summary-api/) — The Flex Registration Activity Summary API from Hypervolt — 1 operation(s) for flex registration activity summary.
+- [Hypervolt JWT Refresh API](https://apis.io/apis/hypervolt/hypervolt-jwt-refresh-api/) — The JWT Refresh API from Hypervolt — 1 operation(s) for jwt refresh.
+- [Hypervolt Metrics API](https://apis.io/apis/hypervolt/hypervolt-metrics-api/) — The metrics API from Hypervolt — 10 operation(s) for metrics.
+- [Hypervolt Ota API](https://apis.io/apis/hypervolt/hypervolt-ota-api/) — The ota API from Hypervolt — 3 operation(s) for ota.
+- [Hypervolt Other API](https://apis.io/apis/hypervolt/hypervolt-other-api/) — The other API from Hypervolt — 3 operation(s) for other.
+- [Hypervolt Placement API](https://apis.io/apis/hypervolt/hypervolt-placement-api/) — The placement API from Hypervolt — 18 operation(s) for placement.
+- [Hypervolt Profile API](https://apis.io/apis/hypervolt/hypervolt-profile-api/) — The profile API from Hypervolt — 6 operation(s) for profile.
+- [Hypervolt Reporting API](https://apis.io/apis/hypervolt/hypervolt-reporting-api/) — The reporting API from Hypervolt — 1 operation(s) for reporting.
+- [Hypervolt Timeline API](https://apis.io/apis/hypervolt/hypervolt-timeline-api/) — The timeline API from Hypervolt — 1 operation(s) for timeline.
+- [Hypervolt User API](https://apis.io/apis/hypervolt/hypervolt-user-api/) — The user API from Hypervolt — 13 operation(s) for user.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hypervolt Agentic Access](https://apis.io/agentic-access/hypervolt/hypervolt-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Address](https://apis.io/schemas/hypervolt/hypervolt-address/)
+- [CompositeCostedSessionSer](https://apis.io/schemas/hypervolt/hypervolt-composite-costed-session-ser/)
+- [ConsentResponse](https://apis.io/schemas/hypervolt/hypervolt-consent-response/)
+- [PlacementJson](https://apis.io/schemas/hypervolt/hypervolt-placement-json/)
+- [PlacementUpdateJson](https://apis.io/schemas/hypervolt/hypervolt-placement-update-json/)
+- [UserJson](https://apis.io/schemas/hypervolt/hypervolt-user-json/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hypervolt Context](https://apis.io/jsonld/hypervolt/hypervolt-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hypervolt API Rules](https://apis.io/rules/hypervolt/hypervolt-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Hypervolt Authentication](https://apis.io/security/hypervolt/hypervolt-authentication/)
 - [Hypervolt Domain Security](https://apis.io/security/hypervolt/hypervolt-domain-security/)
 
 ## Where to find this API
@@ -87,38 +136,41 @@ Authentication, trust centre, and vulnerability disclosure.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://hypervolt.co.uk/)
+- [Documentation](https://hypervolt.co.uk/en-US/)
 - [Support](https://support.hypervolt.co.uk/en/knowledge-base)
-- [Blog](https://blog.hypervolt.co.uk/)
+- [Blog](https://blog.hypervolt.co.uk/en/news)
+- [Terms of service](https://hypervolt.co.uk/en-US/terms-and-conditions)
+- [Privacy policy](https://hypervolt.co.uk/en-US/privacy-policy)
 
 ## API Evangelist rating
 
-**Kin Score 4.0** — minimal · rubric 0.28.0 · scored 2026-11-17
+**Kin Score 43.0** — developing · rubric 0.27.0 · scored 2026-11-17
 
 | Facet | Score |
 |---|---|
-| Discoverability | 48.2 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
+| Discoverability | 66.1 |
+| Contract quality | 57.0 |
+| Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 7.1 |
-| Access clarity | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 21.1 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 34.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -126,11 +178,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hypervolt/](https://apis.io/providers/hypervolt/).
 
